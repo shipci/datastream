@@ -23,5 +23,6 @@ before_script:
  - pylint datastream tests docs || true
 script:
  - python -Wall setup.py test
+
 notifications:
   email: false
