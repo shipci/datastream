@@ -26,3 +26,4 @@ script:
 
 notifications:
   email: false
+build_image: shippable/minv2:beta 
